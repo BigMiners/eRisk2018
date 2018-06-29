@@ -8,7 +8,7 @@ eRisk explores the evaluation methodology, effectiveness metrics and practical a
 
 The system presented here has been developped for the first task:
 
-    Task 1 - Early Detection of Signs of Depression : the challenge consists of sequentially processing pieces of evidence (Social Media entries) and detect early traces of depression as soon as possible.
+Task 1 - Early Detection of Signs of Depression : the challenge consists of sequentially processing pieces of evidence (Social Media entries) and detect early traces of depression as soon as possible.
 
 
 [CLEF 2018](http://clef2018.clef-initiative.eu/) Workshop
