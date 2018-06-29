@@ -1,0 +1,6 @@
+README.md
+erisk2018data/handler.py
+erisk2018data.egg-info/PKG-INFO
+erisk2018data.egg-info/SOURCES.txt
+erisk2018data.egg-info/dependency_links.txt
+erisk2018data.egg-info/top_level.txt

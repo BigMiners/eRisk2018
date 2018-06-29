@@ -1,0 +1,19 @@
+#Configuration
+config.cfg
+
+#Environments
+.env
+dev
+venv
+env
+
+#IDE-specific files
+.vscode
+.idea
+
+#Models
+models
+
+#Miscellanious
+pycache
+*.pyc

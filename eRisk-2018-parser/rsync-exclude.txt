@@ -1,0 +1,14 @@
+.idea
+config.cfg
+config.cfg.default
+env
+erisk2018data.egg-info
+README.md
+splitter.py
+test_datahandler.py
+__pycache__
+*.pyc
+.git
+.gitignore
+*.swo
+*.swp

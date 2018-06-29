@@ -1,0 +1,20 @@
+[Data]
+task = /path/to/task/1
+split = split_to_use
+
+[Feature]
+vectorizer =
+lda =
+
+[Model]
+clf = pipeline_1_a.p
+mlp =
+threshold = 0.85
+shrinking_ratio = 0.85
+
+[Training]
+undersample = y
+
+[Testing]
+decide = y
+
