@@ -15,7 +15,7 @@ chunk_in_batches = batchify(chunk, batch_size=64)
 Install from gitlab
 
 ```
-pip install git+ssh://git@gitlab.ikb.info.uqam.ca/sentiman/eRisk-2018-parser.git
+pip install git+https://github.com/BigMiners/eRisk2018/eRisk-2018-parser.git
 ```
 
 Building the package
