@@ -25,7 +25,7 @@ cd eRisk2018
 Getting the dataset from eRisk organisers (david.losada@usc.es)
 Create a split using `splitter.py` :
 ```
-python -m eRisk-2018-ML.splitter path/to/data/task1 nb_splits test_ratio
+python -m splitter path/to/data/task1 nb_splits test_ratio
 ```
 
 ## System
