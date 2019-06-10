@@ -44,7 +44,7 @@ Train the system
 python -m lda
 ```
 
-Predit
+Predict
 ```
 python -m predict output_dir number_of_chunks_to_predict_for
 ```
