@@ -13,6 +13,10 @@ env
 
 #Models
 models
+clf*
+lda*
+pipeline*
+tf*
 
 #Miscellanious
 pycache
