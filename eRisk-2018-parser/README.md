@@ -12,7 +12,7 @@ chunk_as_list = list(chunk)
 chunk_in_batches = batchify(chunk, batch_size=64)
 ```
 
-Install from gitlab
+Install from GitHub
 
 ```
 pip install git+https://github.com/BigMiners/eRisk2018/eRisk-2018-parser.git
