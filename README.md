@@ -20,6 +20,12 @@ Avignon, 11-14 September 2018
 git clone https://github.com/BigMiners/eRisk2018.git
 cd eRisk2018
 ```
+Create a python3.5 environment, install requirements :
+```
+virtualenv -p python3.5 venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Parsing the data
 Getting the dataset from eRisk organisers (david.losada@usc.es)
@@ -29,10 +35,19 @@ python -m splitter path/to/data/task1 nb_splits test_ratio
 ```
 
 ## System
+Create a copy of `config.cfg.default` named `config.cfg`.
+Update `[Data][task]` and `[Data][split]` to match the new values.
+The split names can be found in `[Data][task]/splits` and are letter names.
+
+Train the system
 ```
-cd eRisk2018-2018-ML
+python -m lda
 ```
-then see README.md
+
+Predit
+```
+python -m predict output_dir number_of_chunks_to_predict_for
+```
 
 ## Citing this work
 Diego Maupomé, Marie-Jean Meurs
