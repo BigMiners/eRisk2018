@@ -1,4 +1,23 @@
-#Virtual environments
+#Configuration
+config.cfg
+
+#Environments
 .env
+dev
 venv
 env
+
+#IDE-specific files
+.vscode
+.idea
+
+#Models
+models
+clf*
+lda_[0-9]*
+pipeline*
+tf*
+
+#Miscellanious
+pycache
+*.pyc
