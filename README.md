@@ -22,10 +22,11 @@ cd eRisk2018
 ```
 
 ## Parsing the data
+Getting the dataset from eRisk organisers (david.losada@usc.es)
+Create a split using `splitter.py` :
 ```
-cd eRisk2018-2018-parser
+python -m eRisk-2018-ML.splitter path/to/data/task1 nb_splits test_ratio
 ```
-then see README.md
 
 ## System
 ```
